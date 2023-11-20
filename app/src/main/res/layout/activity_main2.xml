@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pozadina"
+    tools:context=".MainActivity3">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:id="@+id/simpleTableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical"
+                android:stretchColumns="1">
+
+                <EditText
+                    android:id="@+id/bar_kod_art"
+                    android:layout_width="358dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:autofillHints="Skeniraj bar kod"
+                    android:background="#fff"
+
+
+                    android:focusable="true"
+
+                    android:focusableInTouchMode="true"
+                    android:hint="@string/skeniraj_na_klik_artikal_bar_kod"
+                    android:minHeight="48dp"
+                    android:padding="5dp"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TableRow
+                    android:id="@+id/firstRow1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/checkBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Skenirani artikli"
+                        android:visibility="invisible" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox1"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="120dp"
+                        android:layout_weight="1"
+                        android:text="Prikazi tastaturu "
+                        android:visibility="visible" />
+                </TableRow>
+
+                <TableRow
+
+                    android:id="@+id/firstRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="70dp"
+                        android:text="Slika"
+                        android:textColor="#2B2626"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/img_peak"
+                        android:layout_width="260dp"
+                        android:layout_height="134dp"
+                        android:layout_marginTop="1dp"
+
+                        android:layout_marginRight="5dp"
+                        app:srcCompat="@drawable/peak" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/firstRow2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="71dp">
+
+                    <TextView
+                        android:layout_width="45dp"
+                        android:layout_height="39dp"
+                        android:layout_column="0"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Sifra artikla"
+                        android:textColor="#2B2626"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/sf_art"
+                        android:layout_height="33dp"
+                        android:layout_column="1"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#3703A9F4"
+                        android:clickable="false"
+                        android:cursorVisible="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:hint="Sifra artikla  "
+                        android:importantForAutofill="no"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </TableRow>
+
+
+                <TableRow
+                    android:id="@+id/firstRow3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="42dp"
+                        android:layout_height="36dp"
+                        android:layout_column="0"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Naziv artikla"
+                        android:textColor="#2B2626"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/naziv_art"
+                        android:layout_height="87dp"
+                        android:layout_column="1"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#8BFF9800"
+                        android:clickable="false"
+                        android:cursorVisible="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:hint="Naziv artikla  "
+                        android:minHeight="48dp"
+                        android:padding="5dp"
+                        android:textColor="#000"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/firstRow4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Rolka"
+                        android:textColor="#2B2626"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/kms_art"
+                        android:layout_height="67dp"
+                        android:layout_column="1"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#fff"
+                        android:clickable="false"
+                        android:cursorVisible="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:hint="@string/komisiono_mesto_artikla"
+                        android:minHeight="48dp"
+                        android:padding="5dp"
+                        android:textColor="#C81515"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <Button
+                    android:id="@+id/ponisti"
+                    android:layout_width="fill_parent"
+                    android:layout_height="56dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="45dp"
+                    android:text="@string/ponisti"
+                    android:textSize="22sp" />
+
+
+            </TableLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+
+
+</LinearLayout>
+
+
+
+
+
+
+

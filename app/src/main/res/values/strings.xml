@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">DarkStore</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="not_registered">Not registered</string>
+    <string name="register">REGISTER</string>
+    <string name="title_activity_register">Register</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="vec_registrovan">Vec registrovan</string>
+    <string name="logovanje">LOGOVANJE</string>
+    <string name="peak">Peak</string>
+    <string name="sorting">Sorting</string>
+    <string name="sacuvaj">Sacuvaj</string>
+    <string name="skeniraj_na_klik">Skeniraj na klik</string>
+    <string name="skeniraj_na_klik_komisiono_mesto">Skeniraj komisiono mesto</string>
+    <string name="skeniraj_na_klik_artikal">Skeniraj bar kod artikla</string>
+    <string name="skeniraj_na_klik_artikal_bar_kod">Skeniraj bar kod artikla</string>
+    <string name="komisiono_mesto_artikla">Komisiono mesto artikla</string>
+    <string name="ponisti">Ponisti</string>
+    <string name="slika">Slika</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="c_de_fg_hi_jk_lm_no_pr_st_uv">C,DE,FG,HI,JK,LM,NO,PR,ST,UV</string>
+    <string name="Ulaganje">Ulaganje</string>
+    <string name="Sortiranje">Sortiranje</string>
+</resources>
